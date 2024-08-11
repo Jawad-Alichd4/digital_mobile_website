@@ -25,6 +25,16 @@ header button{
 #home{
     display: flex;
     background-color: aquamarine;
+    
+}
+#secondcol{
+    background-image: url(backgroundImage.jpg);
+    /* background-repeat: repeat; */
+    background-size: cover;
+    width: 90%;
+}
+#home>div>h2{
+    color: aliceblue;
 }
 #home>div{
     display: grid;
@@ -45,6 +55,7 @@ footer img{
    flex-direction: row;
 }
 #mobiles1>div>img{
+    display: flex;
    border: 1px solid black;
    width: 250px;
     height: 250px;
@@ -52,10 +63,30 @@ footer img{
 }
 #mobiles1>div{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 25px;
     background-color: rgb(186, 228, 214);
 }
 #mobiles1>div>h4{
     text-align: center;
     text-transform: uppercase;
+}
+
+/* for mobile screen */
+@media{max-width: 400px;} {
+
+   #navigation{
+height: 80px;
+   } 
+
+#mobiles1>div>img{
+border:1px solid blue ;
+width: 150px ;
+height: 150px;
+justify-content: space-evenly;
+}
+#mobile>div{
+display:flex;
+margin-right: 10px;
+}
+
 }
