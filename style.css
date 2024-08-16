@@ -11,7 +11,7 @@ header{
     width: 100%;
     height: 50px;
     justify-content: space-evenly;
-    background-color: rgb(57, 57, 124);
+    background-color: rgb(128, 128, 184);
     
 }
 header input{
@@ -36,10 +36,10 @@ header button{
 #home>div>h2{
     color: aliceblue;
 }
-#home>div{
-    display: grid;
-    margin-right: 25px;
+.atag{
+    list-style-type: none;
 }
+
 footer{
     display: flex;
     flex-direction: row;
@@ -53,23 +53,91 @@ footer img{
 #mobiles1{
     display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
 }
 #mobiles1>div>img{
     display: flex;
+    position:relative;
    border: 1px solid black;
-   width: 250px;
-    height: 250px;
-    justify-content: space-evenly;
+   width: 150px;
+    height: 150px;
+
+     top: 40px;
+     left: 40px;
+     right:40px;
+     bottom: 40px;
+    
+
 }
 #mobiles1>div{
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 33px;
+    position: relative;
+    width: 230px;
+    height: 260px;
     background-color: rgb(186, 228, 214);
+    
+}
+#mobiles1>div>h5{
+    background-color: rgb(124, 122, 120);
+    width:60px;
+    height: 30px;
+    border: 1px solid white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    margin-top: 5px;
+
 }
 #mobiles1>div>h4{
+    display: flex;
+    position: relative;
     text-align: center;
     text-transform: uppercase;
+    bottom: -50px;
+    left: 40px;
 }
+
+/* laptops images */
+#laptopsid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#laptopsid>div{
+    display: inline-block;
+    margin-right: 33px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(221, 220, 145);
+}
+#laptopsid>div>img{
+    display:inline-block;
+    position:relative;
+   border: 1px solid black;
+   width: 250px;
+    height: 250px;
+    /* justify-content: space-evenly; */
+
+
+     top: 24px;
+     left: 24px;
+     right:40px;
+     bottom: 40px;   
+}
+#laptopsid>div>h4{
+    display: flex;
+    position: relative;
+    text-transform:uppercase;
+    text-align: center;
+    color: rgb(7, 7, 7);
+     bottom: 49px;
+     bottom: -20px;
+     left: 30px;
+    
+}
+
 
 /* for mobile screen */
 @media{max-width: 400px;} {
