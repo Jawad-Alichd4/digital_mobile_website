@@ -78,6 +78,12 @@ footer img{
     background-color: rgb(186, 228, 214);
     
 }
+#mobiles1>div:hover{
+    background-color: azure;
+    height:260px ;
+    width: 260px;
+    transition-delay: 0.5s;
+}
 #mobiles1>div>h5{
     background-color: rgb(124, 122, 120);
     width:60px;
@@ -125,6 +131,12 @@ footer img{
      left: 24px;
      right:40px;
      bottom: 40px;   
+}
+#laptopsid>div:hover{
+    background-color: azure;
+    height:310px ;
+    width: 310px;
+    transition-delay: 0.5s;
 }
 #laptopsid>div>h4{
     display: flex;
